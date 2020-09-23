@@ -1,4 +1,4 @@
-﻿namespace W02_Assignment
+﻿namespace CIT365_F2020_NewellBrycen
 {
     partial class Form1
     {

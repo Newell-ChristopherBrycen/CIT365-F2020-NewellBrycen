@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace W02_Assignment
+namespace CIT365_F2020_NewellBrycen
 {
     public partial class Form1 : Form
     {

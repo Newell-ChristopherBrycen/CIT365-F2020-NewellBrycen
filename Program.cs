@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace W02_Assignment
+namespace CIT365_F2020_NewellBrycen
 {
     static class Program
     {
