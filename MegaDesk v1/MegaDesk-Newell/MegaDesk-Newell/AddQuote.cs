@@ -12,8 +12,10 @@ namespace MegaDesk_Newell
 {
     public partial class AddQuote : Form
     {
+
+
         private Desk desk;
-       
+              
         private ErrorProvider widthError;
         private ErrorProvider depthError;
 
@@ -156,7 +158,8 @@ namespace MegaDesk_Newell
 
         private void SubmitOrder_Click(object sender, EventArgs e)
         {
-            //To Do
+           //todo
+
         }
     }
 }

@@ -49,7 +49,7 @@
             // returnToMainMenuButton
             // 
             this.returnToMainMenuButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.returnToMainMenuButton.Location = new System.Drawing.Point(714, 410);
+            this.returnToMainMenuButton.Location = new System.Drawing.Point(455, 341);
             this.returnToMainMenuButton.Name = "returnToMainMenuButton";
             this.returnToMainMenuButton.Size = new System.Drawing.Size(75, 23);
             this.returnToMainMenuButton.TabIndex = 0;
@@ -59,7 +59,7 @@
             // 
             // widthEntryBox
             // 
-            this.widthEntryBox.Location = new System.Drawing.Point(12, 63);
+            this.widthEntryBox.Location = new System.Drawing.Point(173, 64);
             this.widthEntryBox.Name = "widthEntryBox";
             this.widthEntryBox.Size = new System.Drawing.Size(132, 20);
             this.widthEntryBox.TabIndex = 2;
@@ -70,7 +70,7 @@
             // widthLabel
             // 
             this.widthLabel.AutoSize = true;
-            this.widthLabel.Location = new System.Drawing.Point(12, 47);
+            this.widthLabel.Location = new System.Drawing.Point(62, 67);
             this.widthLabel.Name = "widthLabel";
             this.widthLabel.Size = new System.Drawing.Size(94, 13);
             this.widthLabel.TabIndex = 2;
@@ -79,7 +79,7 @@
             // depthLabel
             // 
             this.depthLabel.AutoSize = true;
-            this.depthLabel.Location = new System.Drawing.Point(12, 86);
+            this.depthLabel.Location = new System.Drawing.Point(61, 109);
             this.depthLabel.Name = "depthLabel";
             this.depthLabel.Size = new System.Drawing.Size(95, 13);
             this.depthLabel.TabIndex = 3;
@@ -87,7 +87,7 @@
             // 
             // depthEntryBox
             // 
-            this.depthEntryBox.Location = new System.Drawing.Point(12, 102);
+            this.depthEntryBox.Location = new System.Drawing.Point(173, 106);
             this.depthEntryBox.Name = "depthEntryBox";
             this.depthEntryBox.Size = new System.Drawing.Size(132, 20);
             this.depthEntryBox.TabIndex = 3;
@@ -97,7 +97,7 @@
             // drawerLabel
             // 
             this.drawerLabel.AutoSize = true;
-            this.drawerLabel.Location = new System.Drawing.Point(9, 125);
+            this.drawerLabel.Location = new System.Drawing.Point(27, 146);
             this.drawerLabel.Name = "drawerLabel";
             this.drawerLabel.Size = new System.Drawing.Size(129, 13);
             this.drawerLabel.TabIndex = 3;
@@ -105,7 +105,7 @@
             // 
             // drawerEntryBox
             // 
-            this.drawerEntryBox.Location = new System.Drawing.Point(12, 141);
+            this.drawerEntryBox.Location = new System.Drawing.Point(173, 143);
             this.drawerEntryBox.Name = "drawerEntryBox";
             this.drawerEntryBox.Size = new System.Drawing.Size(132, 20);
             this.drawerEntryBox.TabIndex = 4;
@@ -114,16 +114,16 @@
             // deskMaterialLabel
             // 
             this.deskMaterialLabel.AutoSize = true;
-            this.deskMaterialLabel.Location = new System.Drawing.Point(9, 164);
+            this.deskMaterialLabel.Location = new System.Drawing.Point(36, 183);
             this.deskMaterialLabel.Name = "deskMaterialLabel";
-            this.deskMaterialLabel.Size = new System.Drawing.Size(138, 13);
+            this.deskMaterialLabel.Size = new System.Drawing.Size(120, 13);
             this.deskMaterialLabel.TabIndex = 3;
-            this.deskMaterialLabel.Text = "Choose Material Option 1-5:";
+            this.deskMaterialLabel.Text = "Choose Material Option:";
             // 
             // RushOrderLabel
             // 
             this.RushOrderLabel.AutoSize = true;
-            this.RushOrderLabel.Location = new System.Drawing.Point(9, 204);
+            this.RushOrderLabel.Location = new System.Drawing.Point(48, 226);
             this.RushOrderLabel.Name = "RushOrderLabel";
             this.RushOrderLabel.Size = new System.Drawing.Size(108, 13);
             this.RushOrderLabel.TabIndex = 3;
@@ -132,7 +132,7 @@
             // materialOptionBox
             // 
             this.materialOptionBox.FormattingEnabled = true;
-            this.materialOptionBox.Location = new System.Drawing.Point(12, 180);
+            this.materialOptionBox.Location = new System.Drawing.Point(173, 180);
             this.materialOptionBox.Name = "materialOptionBox";
             this.materialOptionBox.Size = new System.Drawing.Size(132, 21);
             this.materialOptionBox.TabIndex = 5;
@@ -140,14 +140,14 @@
             // rushOrderBox
             // 
             this.rushOrderBox.FormattingEnabled = true;
-            this.rushOrderBox.Location = new System.Drawing.Point(12, 220);
+            this.rushOrderBox.Location = new System.Drawing.Point(173, 223);
             this.rushOrderBox.Name = "rushOrderBox";
             this.rushOrderBox.Size = new System.Drawing.Size(132, 21);
             this.rushOrderBox.TabIndex = 6;
             // 
             // nameEntryBox
             // 
-            this.nameEntryBox.Location = new System.Drawing.Point(12, 25);
+            this.nameEntryBox.Location = new System.Drawing.Point(173, 22);
             this.nameEntryBox.Name = "nameEntryBox";
             this.nameEntryBox.Size = new System.Drawing.Size(132, 20);
             this.nameEntryBox.TabIndex = 1;
@@ -156,7 +156,7 @@
             // nameEntryLabel
             // 
             this.nameEntryLabel.AutoSize = true;
-            this.nameEntryLabel.Location = new System.Drawing.Point(12, 9);
+            this.nameEntryLabel.Location = new System.Drawing.Point(55, 25);
             this.nameEntryLabel.Name = "nameEntryLabel";
             this.nameEntryLabel.Size = new System.Drawing.Size(101, 13);
             this.nameEntryLabel.TabIndex = 2;
@@ -165,7 +165,7 @@
             // DateLabel
             // 
             this.DateLabel.AutoSize = true;
-            this.DateLabel.Location = new System.Drawing.Point(32, 415);
+            this.DateLabel.Location = new System.Drawing.Point(371, 25);
             this.DateLabel.Name = "DateLabel";
             this.DateLabel.Size = new System.Drawing.Size(33, 13);
             this.DateLabel.TabIndex = 7;
@@ -174,7 +174,7 @@
             // TodaysDate
             // 
             this.TodaysDate.AutoSize = true;
-            this.TodaysDate.Location = new System.Drawing.Point(71, 415);
+            this.TodaysDate.Location = new System.Drawing.Point(421, 25);
             this.TodaysDate.Name = "TodaysDate";
             this.TodaysDate.Size = new System.Drawing.Size(70, 13);
             this.TodaysDate.TabIndex = 7;
@@ -182,11 +182,11 @@
             // 
             // SubmitOrder
             // 
-            this.SubmitOrder.Location = new System.Drawing.Point(299, 393);
+            this.SubmitOrder.Location = new System.Drawing.Point(78, 280);
             this.SubmitOrder.Name = "SubmitOrder";
             this.SubmitOrder.Size = new System.Drawing.Size(205, 45);
             this.SubmitOrder.TabIndex = 8;
-            this.SubmitOrder.Text = "Submit Order";
+            this.SubmitOrder.Text = "S&ubmit Order";
             this.SubmitOrder.UseVisualStyleBackColor = true;
             this.SubmitOrder.Click += new System.EventHandler(this.SubmitOrder_Click);
             // 
@@ -195,7 +195,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.returnToMainMenuButton;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(552, 376);
             this.Controls.Add(this.SubmitOrder);
             this.Controls.Add(this.TodaysDate);
             this.Controls.Add(this.DateLabel);
