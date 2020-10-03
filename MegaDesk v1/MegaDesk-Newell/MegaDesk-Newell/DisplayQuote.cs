@@ -12,9 +12,18 @@ namespace MegaDesk_Newell
 {
     public partial class DisplayQuote : Form
     {
+        
         public DisplayQuote()
         {
             InitializeComponent();
+        }
+
+        private void returnToMainMenuButton_Click(object sender, EventArgs e)
+        {
+            MainMenu openMenu = new MainMenu();
+            openMenu.Tag = this;
+            openMenu.Show(this);
+            Hide(); 
         }
     }
 }

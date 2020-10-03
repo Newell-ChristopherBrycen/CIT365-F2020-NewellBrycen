@@ -8,5 +8,6 @@ namespace MegaDesk_Newell
 {
     class DeskQuote
     {
+      
     }
 }

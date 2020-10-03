@@ -66,6 +66,7 @@
             // 
             // ExitButton
             // 
+            this.ExitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.ExitButton.Location = new System.Drawing.Point(83, 329);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(147, 67);
@@ -78,6 +79,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.ExitButton;
             this.ClientSize = new System.Drawing.Size(814, 529);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.SearchQuotesButton);
