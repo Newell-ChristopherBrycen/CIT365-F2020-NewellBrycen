@@ -49,7 +49,7 @@
             // returnToMainMenuButton
             // 
             this.returnToMainMenuButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.returnToMainMenuButton.Location = new System.Drawing.Point(455, 341);
+            this.returnToMainMenuButton.Location = new System.Drawing.Point(416, 291);
             this.returnToMainMenuButton.Name = "returnToMainMenuButton";
             this.returnToMainMenuButton.Size = new System.Drawing.Size(75, 23);
             this.returnToMainMenuButton.TabIndex = 0;
@@ -195,7 +195,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.returnToMainMenuButton;
-            this.ClientSize = new System.Drawing.Size(552, 376);
+            this.ClientSize = new System.Drawing.Size(603, 421);
             this.Controls.Add(this.SubmitOrder);
             this.Controls.Add(this.TodaysDate);
             this.Controls.Add(this.DateLabel);
